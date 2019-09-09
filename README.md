@@ -1,2 +1,3 @@
 # eslint-config-crowdstrike
-ESLint config for CrowdStrike
+
+[ESLint](https://eslint.org) config for [CrowdStrike](https://www.crowdstrike.com)
