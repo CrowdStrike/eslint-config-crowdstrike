@@ -20,6 +20,7 @@ module.exports = {
     'max-params': ['error', 3],
     'no-constant-condition': 'off',
     'no-empty': ['error', { allowEmptyCatch: true }],
+    'no-restricted-globals': ['error', 'event'],
     'one-var': ['error', 'never'],
     'quotes': ['error', 'single', {
       'allowTemplateLiterals': true,
