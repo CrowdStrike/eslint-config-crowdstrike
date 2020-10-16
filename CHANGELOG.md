@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v2.0.0...v3.0.0) (2020-10-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* bump to node 10
+
+### Features
+
+* bump to node 10 ([d0c4f30](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/d0c4f30741494fbdba7a817a4bfea9282253e944))
+
 ## [2.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v1.0.0...v2.0.0) (2020-02-05)
 
 
