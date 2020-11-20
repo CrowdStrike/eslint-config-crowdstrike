@@ -34,7 +34,6 @@ module.exports = {
         'exceptions': ['*'],
       },
     }],
-    'strict': 'error',
     'template-curly-spacing': ['error', 'never'],
   },
 };
