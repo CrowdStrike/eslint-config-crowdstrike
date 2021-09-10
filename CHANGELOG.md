@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v3.1.0...v4.0.0) (2021-09-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* add eol-last rule
+
+### Features
+
+* add eol-last rule ([d7d7e49](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/d7d7e498781ae147be10b09ab2f22b1fc1909977))
+
 ## [3.1.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v3.0.2...v3.1.0) (2021-06-15)
 
 
