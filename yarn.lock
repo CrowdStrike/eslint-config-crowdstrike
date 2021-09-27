@@ -1005,6 +1005,7 @@ eslint-config-crowdstrike-node@^3.0.0:
 
 "eslint-config-crowdstrike@link:.":
   version "0.0.0"
+  uid ""
 
 eslint-plugin-es@^3.0.0:
   version "3.0.0"
@@ -1014,9 +1015,9 @@ eslint-plugin-es@^3.0.0:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
 
-eslint-plugin-json-files@1.2.0:
+eslint-plugin-json-files@^1.2.0:
   version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-json-files/-/eslint-plugin-json-files-1.2.0.tgz#f8b7048227e5897dcb0e1940f7a2a3f8585320fe"
+  resolved "https://registry.npmjs.org/eslint-plugin-json-files/-/eslint-plugin-json-files-1.2.0.tgz#f8b7048227e5897dcb0e1940f7a2a3f8585320fe"
   integrity sha512-fd/mRRINKk6pBp4UUgU5S97te748TIC02Ec+vAOvLv9lcmkAN+wdtXDX9frI6arsz+eyoBKd8j/dJAA98iceRQ==
   dependencies:
     ajv "^8.2.0"
