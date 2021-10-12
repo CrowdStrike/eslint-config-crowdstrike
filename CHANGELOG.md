@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.1](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v4.0.0...v4.0.1) (2021-10-12)
+
+
+### Bug Fixes
+
+* revert accidental eslint peer deps bump ([c1bfbef](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/c1bfbefdf5d1003fd657ec950acdb45aeb01e79d))
+
 ## [4.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v3.1.0...v4.0.0) (2021-09-10)
 
 
