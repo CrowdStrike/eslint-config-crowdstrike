@@ -45,6 +45,6 @@
     "standard-version": "^9.0.0"
   },
   "peerDependencies": {
-    "eslint": "7"
+    "eslint": ">=6"
   }
 }
