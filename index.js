@@ -36,5 +36,6 @@ module.exports = {
       },
     }],
     'template-curly-spacing': ['error', 'never'],
+    'no-trailing-spaces': 'error',
   },
 };
