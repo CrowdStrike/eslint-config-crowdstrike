@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v4.0.1...v5.0.0) (2022-08-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* add no-trailing-spaces rule
+
+### Features
+
+* add no-trailing-spaces rule ([625af39](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/625af395b21df76be02c0ec5eceacd36c20bfd6d))
+
 ### [4.0.1](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v4.0.0...v4.0.1) (2021-10-12)
 
 
