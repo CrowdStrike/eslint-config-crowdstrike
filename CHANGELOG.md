@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v6.0.0...v7.0.0) (2022-08-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* add `object-shorthand` always
+
+### Features
+
+* add `object-shorthand` always ([10e6734](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/10e6734135e4690e86098d6203733c6031459abd))
+
 ## [6.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v5.0.0...v6.0.0) (2022-08-09)
 
 
