@@ -21,6 +21,7 @@ module.exports = {
     'no-constant-condition': 'off',
     'no-empty': ['error', { allowEmptyCatch: true }],
     'no-restricted-globals': ['error', 'event'],
+    'object-shorthand': 'error',
     'one-var': ['error', 'never'],
     'quotes': ['error', 'single', {
       'allowTemplateLiterals': true,
