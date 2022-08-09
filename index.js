@@ -30,14 +30,38 @@ module.exports = {
     'semi': 'error',
 
     // spacing
+    'arrow-spacing': 'error',
+    'array-bracket-spacing': 'error',
+    'block-spacing': 'error',
+    'comma-spacing': 'error',
+    'computed-property-spacing': 'error',
+    'func-call-spacing': 'error',
+    'generator-star-spacing': ['error', { 'before': false, 'after': true }],
+    'key-spacing': 'error',
     'keyword-spacing': ['error', {}],
     'no-trailing-spaces': 'error',
+    'no-whitespace-before-property': 'error',
+    'object-curly-spacing': ['error', 'always'],
+    'rest-spread-spacing': 'error',
+    'semi-spacing': 'error',
+    'space-before-blocks': 'error',
+    'space-before-function-paren': ['error', {
+      'anonymous': 'ignore',
+      'named': 'never',
+      'asyncArrow': 'always',
+    }],
+    'space-in-parens': 'error',
+    'space-infix-ops': 'error',
+    'space-unary-ops': 'error',
     'spaced-comment': ['error', 'always', {
       'block': {
         'balanced': true,
         'exceptions': ['*'],
       },
     }],
+    'switch-colon-spacing': 'error',
     'template-curly-spacing': ['error', 'never'],
+    'template-tag-spacing': 'error',
+    'yield-star-spacing': 'error',
   },
 };
