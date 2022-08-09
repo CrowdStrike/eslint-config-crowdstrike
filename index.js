@@ -17,7 +17,6 @@ module.exports = {
       'MemberExpression': 1,
       'SwitchCase': 1,
     }],
-    'keyword-spacing': ['error', {}],
     'max-params': ['error', 3],
     'no-constant-condition': 'off',
     'no-empty': ['error', { allowEmptyCatch: true }],
@@ -29,6 +28,10 @@ module.exports = {
     }],
     'require-await': 'error',
     'semi': 'error',
+
+    // spacing
+    'keyword-spacing': ['error', {}],
+    'no-trailing-spaces': 'error',
     'spaced-comment': ['error', 'always', {
       'block': {
         'balanced': true,
@@ -36,6 +39,5 @@ module.exports = {
       },
     }],
     'template-curly-spacing': ['error', 'never'],
-    'no-trailing-spaces': 'error',
   },
 };
