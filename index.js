@@ -40,6 +40,7 @@ module.exports = {
     'generator-star-spacing': ['error', { 'before': false, 'after': true }],
     'key-spacing': 'error',
     'keyword-spacing': ['error', {}],
+    'no-multi-spaces': 'error',
     'no-trailing-spaces': 'error',
     'no-whitespace-before-property': 'error',
     'object-curly-spacing': ['error', 'always'],
