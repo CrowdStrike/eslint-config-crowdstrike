@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v7.0.0...v8.0.0) (2022-09-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* add no-multi-spaces rule
+
+### Features
+
+* add no-multi-spaces rule ([e0b3788](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/e0b37888a8acab5a73f2d926a03fadcf1e23c61d))
+
 ## [7.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v6.0.0...v7.0.0) (2022-08-09)
 
 
