@@ -13,6 +13,7 @@ module.exports = {
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     'eol-last': 'error',
+    'eqeqeq': 'error',
     'indent': ['error', 2, {
       'MemberExpression': 1,
       'SwitchCase': 1,
