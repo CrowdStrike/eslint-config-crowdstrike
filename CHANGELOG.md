@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v8.0.0...v9.0.0) (2023-01-06)
+
+
+### ⚠ BREAKING CHANGES
+
+* add eqeqeq
+
+### Features
+
+* add eqeqeq ([a982582](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/a98258243ff045ceb28694a4a2a41a8748ae0e46))
+
 ## [8.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v7.0.0...v8.0.0) (2022-09-16)
 
 
