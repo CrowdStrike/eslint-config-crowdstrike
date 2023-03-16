@@ -38,7 +38,13 @@ module.exports = {
     'comma-spacing': 'error',
     'computed-property-spacing': 'error',
     'func-call-spacing': 'error',
-    'generator-star-spacing': ['error', { 'before': false, 'after': true }],
+    'generator-star-spacing': [
+      'error',
+      {
+        named: 'after',
+        anonymous: 'after',
+      },
+    ],
     'key-spacing': 'error',
     'keyword-spacing': ['error', {}],
     'no-multi-spaces': 'error',
