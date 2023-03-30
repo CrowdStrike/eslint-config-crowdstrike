@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v9.0.0...v10.0.0) (2023-03-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* add no-eval rule
+* update generator-star-spacing to match our prettier code
+
+### Features
+
+* add no-eval rule ([329d978](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/329d9781a81554ff5a9b85fec492b81cd9c9df06))
+
+
+### Bug Fixes
+
+* update generator-star-spacing to match our prettier code ([43d3736](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/43d373673e6c1bcc14c988e61270d1a6ce495105))
+
 ## [9.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v8.0.0...v9.0.0) (2023-01-06)
 
 
