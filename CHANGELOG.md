@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.1.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v10.0.0...v10.1.0) (2023-03-31)
+
+
+### Features
+
+* bump ecmaVersion to 2022 ([f972be7](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/f972be78e753ed647d06337ec2fa6d17fa41f7c9))
+
 ## [10.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v9.0.0...v10.0.0) (2023-03-30)
 
 
