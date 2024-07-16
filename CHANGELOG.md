@@ -4,50 +4,16 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [11.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v10.1.1...v11.0.0) (2024-07-16)
 
-### [10.1.1](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v12.0.0...v10.1.1) (2024-07-16)
-
-## 12.0.0 (2024-07-16)
-
 
 ### ⚠ BREAKING CHANGES
 
-* add no-eval rule
-* update generator-star-spacing to match our prettier code
-* add eqeqeq
-* add no-multi-spaces rule
-* add `object-shorthand` always
-* add more spacing rules
-* add no-trailing-spaces rule
-* add eol-last rule
-* bump to node 10
-* Per [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/event)
-use of this property is not recommended in new code:
+* set node engine version to minimums required by eslintv9 ([b3ae637](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/b3ae637977df785d6687a084b01af61d6319a559))
 
-> You *should* avoid using this property in new code, and should instead
-> use the `Event` passed into the event handler function. This property
-> is not universally supported and even when supported introduces
-> potential fragility to your code.
-
-I just came across a usage of it which was I believe unintended (we
-forgot to name the parameter which was being passed to the event
-handling function) and I think we sholud enable this rule to clean up
-other instances...
+* upgrade eslint to @eslint/eslint v9, migrate config file to new eslint.config.mjs format, add legacy config supporting @eslint/eslintrc package ([30c1305](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/30c130574b56fe741a181f4a283b441766be6018))
 
 ### Features
 
-* add `object-shorthand` always ([10e6734](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/10e6734135e4690e86098d6203733c6031459abd))
-* add eol-last rule ([d7d7e49](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/d7d7e498781ae147be10b09ab2f22b1fc1909977))
-* add eqeqeq ([a982582](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/a98258243ff045ceb28694a4a2a41a8748ae0e46))
-* add more spacing rules ([8d6d772](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/8d6d7724619dbfcb536e06d273d3d4fe42746280))
-* add no-eval rule ([329d978](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/329d9781a81554ff5a9b85fec492b81cd9c9df06))
-* add no-multi-spaces rule ([e0b3788](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/e0b37888a8acab5a73f2d926a03fadcf1e23c61d))
-* add no-trailing-spaces rule ([625af39](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/625af395b21df76be02c0ec5eceacd36c20bfd6d))
-* bump `ecmaVersion` to `2020` ([029945a](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/029945ad5b8f088918fed301f4aa409a0280da16))
-* bump ecmaVersion to 2022 ([f972be7](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/f972be78e753ed647d06337ec2fa6d17fa41f7c9))
-* bump to node 10 ([d0c4f30](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/d0c4f30741494fbdba7a817a4bfea9282253e944))
-* bump version to 11.0.0, set node engine version to minimums required by eslintv9 ([b3ae637](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/b3ae637977df785d6687a084b01af61d6319a559))
 * migrate deprecated eslint-plugin-node package to eslint-plugin-n ([b91fc23](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/b91fc2354b5de3ed4a5b1c148db4e95477518db0))
-* upgrade eslint to @eslint/eslint v9, migrate config file to new eslint.config.mjs format, add legacy config supporting @eslint/eslintrc package ([30c1305](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/30c130574b56fe741a181f4a283b441766be6018))
 
 
 ### Bug Fixes
