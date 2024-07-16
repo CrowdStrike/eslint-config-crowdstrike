@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [11.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v10.1.1...v11.0.0) (2024-07-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* set node engine version to minimums required by eslintv9 ([b3ae637](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/b3ae637977df785d6687a084b01af61d6319a559))
+
+* upgrade eslint to @eslint/eslint v9, migrate config file to new eslint.config.mjs format, add legacy config supporting @eslint/eslintrc package ([30c1305](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/30c130574b56fe741a181f4a283b441766be6018))
+
+### Features
+
+* migrate deprecated eslint-plugin-node package to eslint-plugin-n ([b91fc23](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/b91fc2354b5de3ed4a5b1c148db4e95477518db0))
+
+
+### Bug Fixes
+
+* error on use of global `window.event` property ([1c05cc1](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/1c05cc13374ac6d040b9ca2fee2e159bedc14cc4))
+* remove `strict` ([3d6bb3d](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/3d6bb3dff7798a92f9b089afe1e89a5d0fe1a84c))
+* revert accidental eslint peer deps bump ([c1bfbef](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/c1bfbefdf5d1003fd657ec950acdb45aeb01e79d))
+* update generator-star-spacing to match our prettier code ([43d3736](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/43d373673e6c1bcc14c988e61270d1a6ce495105))
+
 ## [10.1.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v10.0.0...v10.1.0) (2023-03-31)
 
 
