@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-crowdstrike",
-  "version": "10.1.0",
+  "version": "11.0.0",
   "description": "ESLint config for CrowdStrike",
   "main": "index.js",
   "files": [
@@ -32,6 +32,9 @@
     "url": "https://github.com/CrowdStrike/eslint-config-crowdstrike/issues"
   },
   "homepage": "https://github.com/CrowdStrike/eslint-config-crowdstrike#readme",
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+  },
   "devDependencies": {
     "@crowdstrike/commitlint": "^7.0.0",
     "eslint": "^8.0.0",
