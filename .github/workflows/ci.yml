@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
         ref: ${{ github.event.pull_request.head.sha }}
     # grab default branch to calculate branch point to know when to stop linting
     - if: ${{ github.base_ref }}
       run: git branch ${{ github.base_ref }} origin/${{ github.base_ref }}
-    - uses: actions/setup-node@v3
+    - uses: actions/setup-node@v4
 
-    - run: yarn install --frozen-lockfile
+    - run: yarn install --frozen-lockfile --ignore-scripts
     - run: yarn lint:git
 
   lint:
@@ -29,9 +29,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
 
-    - run: yarn install --frozen-lockfile
+    - run: yarn install --frozen-lockfile --ignore-scripts
     - run: yarn lint:md
     - run: yarn lint:js
