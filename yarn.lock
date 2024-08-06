@@ -1316,7 +1316,7 @@ eslint-compat-utils@^0.5.1:
   dependencies:
     semver "^7.5.4"
 
-eslint-config-crowdstrike-node@^4.0.0-beta.0:
+eslint-config-crowdstrike-node@4.0.0-beta.0:
   version "4.0.0-beta.0"
   resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike-node/-/eslint-config-crowdstrike-node-4.0.0-beta.0.tgz#427f56d14559eb3d2d18e9a2d0a52232ba6d48de"
   integrity sha512-Q/bNvkRv2YnfN/YLl4KdEBGsRaz8O1FOz/Vgsf40yUxKwXLtrBWMJ3q1z06cp1Hxp7EVc8H73aWH26dMd1dxUA==
