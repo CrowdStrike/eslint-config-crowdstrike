@@ -37,7 +37,6 @@
   },
   "devDependencies": {
     "@crowdstrike/commitlint": "^8.0.0",
-    "@eslint/js": "^9.0.0",
     "eslint": "^9.0.0",
     "eslint-config-crowdstrike": "10.1.0",
     "eslint-config-crowdstrike-node": "4.0.0-beta.1",
