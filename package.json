@@ -38,13 +38,13 @@
   "devDependencies": {
     "@crowdstrike/commitlint": "^8.0.0",
     "eslint": "^9.0.0",
-    "eslint-config-crowdstrike-node": "4.0.0-beta.2",
+    "eslint-config-crowdstrike-node": "4.0.0-beta.2 || ^4.0.0",
     "remark-cli": "^12.0.0",
     "remark-preset-lint-crowdstrike": "^4.0.0",
     "renovate-config-standard": "^2.0.0",
     "standard-version": "^9.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=8.57.0"
+    "eslint": "^8.57.0 || ^9.0.0"
   }
 }
