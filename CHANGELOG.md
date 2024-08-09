@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [11.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v11.0.0-beta.0...v11.0.0) (2024-08-09)
+
+
+### Features
+
+* use newest beta of eslint-config-crowdstrike-node, drop self-de… ([#97](https://github.com/CrowdStrike/eslint-config-crowdstrike/issues/97)) ([dc26929](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/dc269290fb1bd4fe4305bb7ab96471c1a6ac6aa3))
+
 ## [11.0.0-beta.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v10.1.0...v11.0.0-beta.0) (2024-08-09)
 
 
