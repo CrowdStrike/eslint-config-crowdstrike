@@ -1271,22 +1271,18 @@ eslint-compat-utils@^0.5.1:
   dependencies:
     semver "^7.5.4"
 
-"eslint-config-crowdstrike-node@4.0.0-beta.2 || ^4.0.0":
-  version "4.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike-node/-/eslint-config-crowdstrike-node-4.0.0-beta.2.tgz#7791696d2133fff819051aaae5a84189699f0201"
-  integrity sha512-DPEwVYsuUy50wQxmIvUvEJ0Gl/L3GQpXPeZ/nGkaoue9RKZthXGyk3pTciwLG043goTQh9jnkgQvGkiL7HlJEg==
+eslint-config-crowdstrike-node@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike-node/-/eslint-config-crowdstrike-node-4.0.0.tgz#468be0bbe8826b2d138849ba10f40c7328b9230f"
+  integrity sha512-zNCQUf33CvVbRV1XAHr3DqPqQg0aMejRwGcYxiaJnAkdOQ1OIGHx7TIx6FHdS9be7cVN2RAoDwXstfoK07LILw==
   dependencies:
-    eslint-config-crowdstrike "11.0.0-beta.0"
     eslint-plugin-json-files "^4.3.0"
     eslint-plugin-n "^17.0.0"
     globals "^15.8.0"
 
-eslint-config-crowdstrike@11.0.0-beta.0:
-  version "11.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike/-/eslint-config-crowdstrike-11.0.0-beta.0.tgz#8e795d13555f4bb374e093e3bed3cc617fd13507"
-  integrity sha512-OiDvVG5wIr+ToCMlYsYdJDwMODSapsqvJ7uQ0KWeVD7cfcvibK/4SIqWAnP5BpLrNG75/QPlo4171RS5L5bepg==
-  dependencies:
-    "@eslint/js" "^9.0.0"
+"eslint-config-crowdstrike@link:.":
+  version "0.0.0"
+  uid ""
 
 eslint-plugin-es-x@^7.5.0:
   version "7.8.0"
