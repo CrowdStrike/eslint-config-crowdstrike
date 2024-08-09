@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [11.0.0-beta.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v10.1.0...v11.0.0-beta.0) (2024-08-09)
+
+
+### Features
+
+* explicitly set project registry ([ecd5b1d](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/ecd5b1d4089a1f30b24bf0fd1a89b35f3a2c9d5f))
+* include @eslint/js as dependency, since we direclty import it in index.js ([0497955](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/0497955c8a8fda38ac8b535e6e51fa9a9ba43727))
+* pull in new veta version of eslint-config-crowdstrike-node ([5991447](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/599144703ed90c919e7b10ef57d7f34c2ecf41e4))
+* run 'npx @eslint/migrate-config .eslintrc.js' ([a442a7b](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/a442a7b4b0a8444401f55daf6d3dd57ae7bd6979))
+* run 'npx @eslint/migrate-config index.js' ([f89cc79](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/f89cc7997697eee71dfe117738325ea2c68c4a22))
+
+
+### Bug Fixes
+
+* pin eslint-config-crowdstrike to published version, ([59cbfe5](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/59cbfe59ccabf9a4765ba999b81c970141443948))
+* remove duplicate eslint/js reference in devDeps ([6a3fd9b](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/6a3fd9b41b79ec05221419c421538920742d5368))
+
 ## [10.1.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v10.0.0...v10.1.0) (2023-03-31)
 
 
