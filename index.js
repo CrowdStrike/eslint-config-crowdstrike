@@ -8,7 +8,6 @@ module.exports = [
     languageOptions: {
       globals: {},
       ecmaVersion: 2022,
-      sourceType: 'commonjs',
     },
 
     rules: {
