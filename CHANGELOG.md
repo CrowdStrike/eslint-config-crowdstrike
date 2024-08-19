@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [11.0.1](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v11.0.0...v11.0.1) (2024-08-19)
+
+
+### Bug Fixes
+
+* remove unneeded cjs prescriptive sourceType ([f346cf7](https://github.com/CrowdStrike/eslint-config-crowdstrike/commit/f346cf78f37fb9a6e15850ba0f5fb73098f4f2f7))
+
 ## [11.0.0](https://github.com/CrowdStrike/eslint-config-crowdstrike/compare/v11.0.0-beta.0...v11.0.0) (2024-08-09)
 
 
