@@ -254,10 +254,15 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@eslint/js@9.8.0", "@eslint/js@^9.0.0":
+"@eslint/js@9.8.0":
   version "9.8.0"
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.8.0.tgz#ae9bc14bb839713c5056f5018bcefa955556d3a4"
   integrity sha512-MfluB7EUfxXtv3i/++oh89uzAr4PDI4nn201hsp+qaXqsjAWzinlZEHEfPgAX4doIlKvPG/i0A9dpKxOLII8yA==
+
+"@eslint/js@^9.10.0":
+  version "9.10.0"
+  resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.10.0.tgz#eaa3cb0baec497970bb29e43a153d0d5650143c6"
+  integrity sha512-fuXtbiP5GWIn8Fz+LWoOMVf/Jxm+aajZYkhi6CuEm4SxymFM+eUWzbO9qXT+L0iCkL5+KGYMCSGxo686H19S1g==
 
 "@eslint/object-schema@^2.1.4":
   version "2.1.4"
@@ -1271,18 +1276,6 @@ eslint-compat-utils@^0.5.1:
   dependencies:
     semver "^7.5.4"
 
-eslint-config-crowdstrike-node@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-crowdstrike-node/-/eslint-config-crowdstrike-node-4.0.0.tgz#468be0bbe8826b2d138849ba10f40c7328b9230f"
-  integrity sha512-zNCQUf33CvVbRV1XAHr3DqPqQg0aMejRwGcYxiaJnAkdOQ1OIGHx7TIx6FHdS9be7cVN2RAoDwXstfoK07LILw==
-  dependencies:
-    eslint-plugin-json-files "^4.3.0"
-    eslint-plugin-n "^17.0.0"
-    globals "^15.8.0"
-
-"eslint-config-crowdstrike@link:.":
-  version "0.0.0"
-
 eslint-plugin-es-x@^7.5.0:
   version "7.8.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-es-x/-/eslint-plugin-es-x-7.8.0.tgz#a207aa08da37a7923f2a9599e6d3eb73f3f92b74"
@@ -1292,10 +1285,10 @@ eslint-plugin-es-x@^7.5.0:
     "@eslint-community/regexpp" "^4.11.0"
     eslint-compat-utils "^0.5.1"
 
-eslint-plugin-json-files@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-json-files/-/eslint-plugin-json-files-4.3.0.tgz#dc916a3869e9a139a1f00acc2bdf58240afca92e"
-  integrity sha512-gwNmWNoaLZY2IwHj+/27R0M4JNot7f/wFyLbDsks4J1bCiYah9fwCPFlnFo895KZ6A6GYwHOrWySS2ycaBv2Lw==
+eslint-plugin-json-files@^4.4.1:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-json-files/-/eslint-plugin-json-files-4.4.1.tgz#2b17a61dfe30fcccbde2041626f4cfb3c3cbb6ab"
+  integrity sha512-R91vfR2rxvvkEG9KJZu3SmbZrcqEljxsjUgq/wenKTkZ1uRJtCzk51NbU7aCocENH59bskUUiy1NOl2dSOjkXQ==
   dependencies:
     ajv "^8.2.0"
     better-ajv-errors "^1.2.0"
@@ -1304,7 +1297,7 @@ eslint-plugin-json-files@^4.3.0:
     semver "^7.0.0"
     sort-package-json "^1.22.1"
 
-eslint-plugin-n@^17.0.0:
+eslint-plugin-n@^17.10.2:
   version "17.10.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-17.10.2.tgz#16d8d7d0b1dc076c03513bfea096f8ce1b0bcca8"
   integrity sha512-e+s4eAf5NtJaxPhTNu3qMO0Iz40WANS93w9LQgYcvuljgvDmWi/a3rh+OrNyMHeng6aOWGJO0rCg5lH4zi8yTw==
@@ -1749,7 +1742,7 @@ globals@^14.0.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-14.0.0.tgz#898d7413c29babcf6bafe56fcadded858ada724e"
   integrity sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==
 
-globals@^15.8.0:
+globals@^15.8.0, globals@^15.9.0:
   version "15.9.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-15.9.0.tgz#e9de01771091ffbc37db5714dab484f9f69ff399"
   integrity sha512-SmSKyLLKFbSr6rptvP8izbyxJL4ILwqO9Jg23UA0sDlGlu58V59D1//I3vlc0KJphVdUR7vMjHIplYnzBxorQA==
