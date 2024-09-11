@@ -32,6 +32,7 @@
   "homepage": "https://github.com/CrowdStrike/eslint-config-crowdstrike#readme",
   "dependencies": {
     "@eslint/js": "^9.10.0",
+    "eslint-plugin-ember": "^12.2.0",
     "eslint-plugin-json-files": "^4.4.1",
     "eslint-plugin-n": "^17.10.2",
     "globals": "^15.9.0"
