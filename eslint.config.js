@@ -1,8 +1,8 @@
 'use strict';
-const crowdstrikeNodeConfig = require('eslint-config-crowdstrike-node');
+import node from './configs/node.js';
 
-module.exports = [
-  ...crowdstrikeNodeConfig,
+export default [
+  ...node,
   {
     ignores: ['!**/.*'],
     files: ['**/*.json'],
